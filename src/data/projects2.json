@@ -13,7 +13,8 @@
     ],
     "destacado": "Integración completa entre frontend y backend, uso de almacenamiento en la nube y formularios dinámicos.",
     "descripcionDetallada": "Plataforma web desarrollada con Django, React y Next.js, contenedorizada con Docker y usando PostgreSQL y Cloudinary para el manejo de datos e imágenes.\nPermite visualizar perros disponibles para adopción y enviar solicitudes con datos completos del interesado.\nIncluye secciones informativas sobre el albergue y su misión.\nDestaca por su integración entre frontend y backend, el uso de formularios dinámicos y almacenamiento en la nube optimizado.",
-    "imagen": "https://placehold.co/1400x400"
+    "imagen": "https://placehold.co/1400x400",
+    "urlGithub": "https://github.com/Alex-Gmz/esperanza-canina-frontend"
   },
   {
     "id": 2,
@@ -22,7 +23,9 @@
     "tecnologias": ["Angular", "Node.js", "TailwindCSS", "Mercado Pago API"],
     "destacado": "Autogeneración de QRs de reserva y gestión completa de usuarios, reservas y objetos perdidos.",
     "descripcionDetallada": "Aplicación creada con Angular y Node.js, estilizada con TailwindCSS.\nOfrece la posibilidad de explorar hoteles, realizar reservaciones y pagar mediante Mercado Pago, generando de forma automática un QR único por reserva.\nCada usuario cuenta con un perfil donde puede gestionar sus reservaciones y acceder al sistema de objetos perdidos.\nSobresale el flujo completo de reservas, el uso de APIs de pago seguras y la autogeneración de QRs personalizados.",
-    "imagen": "https://placehold.co/1400x400"
+    "imagen": "https://placehold.co/1400x400",
+    "urlDeploy": "https://fluky-resorts.vercel.app/",
+    "urlGithub": "https://github.com/Alex-Gmz/Fluky-Resorts"
   },
   {
     "id": 3,
@@ -31,7 +34,9 @@
     "tecnologias": ["Angular", "Express", "Node.js"],
     "destacado": "Diseño limpio, enfoque en la comunicación directa y experiencia de usuario sencilla.",
     "descripcionDetallada": "Sitio web ligero y funcional para una repostería, que muestra todos los productos disponibles.\nPermite contactar directamente vía WhatsApp con la encargada para solicitar más información o hacer pedidos.\nSe centra en la usabilidad, la presentación visual y la redirección inmediata hacia canales de comunicación directa.",
-    "imagen": "https://placehold.co/1400x400"
+    "imagen": "https://placehold.co/1400x400",
+    "urlDeploy": "https://creaciones-nicole.vercel.app/",
+    "urlGithub": "https://github.com/Alex-Gmz/creaciones-nicole"
   },
   {
     "id": 4,
@@ -48,7 +53,9 @@
     "descripcion": "Landing page moderna para una empresa de marketing digital, optimizada para SEO y con animaciones suaves.",
     "tecnologias": ["React", "TailwindCSS", "GSAP"],
     "destacado": "Optimización SEO, animaciones fluidas y estructura responsive.",
-    "descripcionDetallada": "Landing page moderna creada con React, para una empresa de marketing digital.\nOptimizada para SEO y diseñada con animaciones fluidas y carga rápida.\nPresenta los servicios y proyectos de la empresa de forma atractiva y con estructura responsive.\nDestaca por su rendimiento, accesibilidad y optimización de posicionamiento web.",
-    "imagen": "https://placehold.co/1400x400"
+    "descripcionDetallada": "Landing page moderna creada con React, para una empresa de marketing digital.\nOptimizada para SEO y diseñada con animaciones fluidas y carga rápida.\nPresenta los servicios y proyectos de la empresa de forma atractiva y con estructura responsive.\nDestaca por su rendimiento, accesibilidad y optimización de posicionamiento web.",
+    "imagen": "https://placehold.co/1400x400",
+    "urlDeploy": "https://sinergia-delta.vercel.app/",
+    "urlGithub": "https://github.com/Alex-Gmz/creaciones-nicole"
   }
 ]

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project, delay }) => {
   return (
@@ -14,9 +15,9 @@ const ProjectCard = ({ project, delay }) => {
           className="aspect-video object-cover w-full group-hover:blur-xs transition-all"
         />
         <div className="absolute inset-0  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-          <button className="bg-strong-purple text-white font-bold py-2 px-4 rounded-lg transform scale-0 group-hover:scale-100 transition-transform duration-300">
+          <Link to={`/proyecto/${project.id}`} className="bg-strong-purple text-white font-bold py-2 px-4 rounded-lg transform scale-0 group-hover:scale-100 transition-transform duration-300">
             Ver más
-          </button>
+          </Link>
         </div>
       </div>
       <div className="p-4 transition-transform duration-300 group-hover:-translate-y-2">
