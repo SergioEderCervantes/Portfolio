@@ -8,7 +8,7 @@ const HeroSection = () => {
           className="text-5xl md:text-7xl lg:text-[5rem] font-extrabold text-white leading-tight tracking-tighter"
           data-aos="fade-up"
         >
-          I'm a FULL-STACK DEVELOPMENT TEAM & SOFTWARE ENGINEERS
+          FULL-STACK DEVELOPMENT TEAM & SOFTWARE ENGINEERS
         </h1>
         <a
           href="#featured-projects"
