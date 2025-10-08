@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Project One",
+    "descripcionCorta": "A brief description of the first featured project.",
+    "rolesDesempeñados": ["Backend", "Frontend", "DevOps"]
+  },
+  {
+    "id": 2,
+    "nombre": "Project Two",
+    "descripcionCorta": "A brief description of the second featured project.",
+    "rolesDesempeñados": ["Frontend", "UI/UX"]
+  },
+  {
+    "id": 3,
+    "nombre": "Project Three",
+    "descripcionCorta": "A brief description of the third featured project.",
+    "rolesDesempeñados": ["Backend", "Database"]
+  },
+  {
+    "id": 4,
+    "nombre": "Project Four",
+    "descripcionCorta": "This one should not be displayed.",
+    "rolesDesempeñados": ["Testing"]
+  }
+]

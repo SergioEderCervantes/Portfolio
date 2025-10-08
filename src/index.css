@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-midnight: #24292e;
+  --color-strong-purple: #8A3FFC;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+}
+
+
+body {
+  @apply bg-midnight text-white font-sans;
+}
+:root{
+  scroll-behavior: smooth;
+  
+}
+
+.hero-pattern {
+  background-color: var(--color-midnight);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+@keyframes glow-pulse {
+  0%, 100% { 
+    box-shadow: 0 0 10px -5px var(--color-strong-purple);
+  }
+  50% { 
+    box-shadow: 0 0 15px 5px rgba(138, 63, 252, 0.5);
+  }
+}
