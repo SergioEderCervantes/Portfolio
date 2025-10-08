@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center text-center p-4 relative hero-pattern pt-16">
+    <section className="min-h-screen flex flex-col items-center justify-center text-center p-4 relative pt-16">
             <div className="max-w-4xl">
               <h1 
                 className="text-5xl md:text-7xl lg:text-[5rem] font-extrabold text-white leading-tight tracking-tighter"

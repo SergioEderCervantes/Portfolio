@@ -22,7 +22,7 @@ const Navbar = () => {
               <span>Proyectos</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-strong-purple group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#" className="relative group text-neutral-300 hover:text-strong-purple transition-colors">
+            <a href="#abt-us" className="relative group text-neutral-300 hover:text-strong-purple transition-colors">
               <span>Nosotros</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-strong-purple group-hover:w-full transition-all duration-300"></span>
             </a>

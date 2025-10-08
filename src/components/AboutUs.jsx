@@ -4,7 +4,7 @@ import './AboutUs.css';
 
 const AboutUs = () => {
   return (
-    <section className="py-20 bg-midnight">
+    <section id='abt-us' className="py-20 hero-pattern">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-white mb-12 glowing-border" data-aos="fade-up">Nuestro Equipo</h2>
         <div className="max-w-4xl mx-auto text-justify text-neutral-300 mb-12 text-lg" data-aos="fade-up">

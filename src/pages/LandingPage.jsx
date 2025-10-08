@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 const LandingPage = () => {
   return (
-    <main className="bg-midnight">
+    <main className="hero-pattern">
       <Navbar />
       <HeroSection />
       <FeaturedProjects />

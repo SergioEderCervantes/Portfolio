@@ -3,7 +3,7 @@ import React from 'react';
 const ProjectCard = ({ project, delay }) => {
   return (
     <div 
-      className="group bg-midnight/50 rounded-lg border border-blue-900/50 hover:border-strong-purple/50 transition-colors duration-300 h-full overflow-hidden"
+      className="group bg-midnight/50 rounded-lg max-w-md border border-blue-900/50 hover:border-strong-purple/50 transition-colors duration-300 h-full overflow-hidden"
       data-aos="zoom-in-up"
       data-aos-delay={delay}
     >
@@ -14,8 +14,8 @@ const ProjectCard = ({ project, delay }) => {
           className="aspect-video object-cover w-full"
         />
       </div>
-      <div className="p-6 transition-transform duration-300 group-hover:-translate-y-2">
-        <h3 className="text-2xl font-bold mb-2 text-white">{project.nombre}</h3>
+      <div className="p-4 transition-transform duration-300 group-hover:-translate-y-2">
+        <h3 className="text-xl font-bold mb-2 text-white">{project.nombre}</h3>
         <p className="text-neutral-400 mb-4">{project.descripcionCorta}</p>
         <div className="flex flex-wrap gap-2">
           {project.rolesDesempeñados.map((role, index) => (
