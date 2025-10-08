@@ -56,6 +56,7 @@
     "destacado": "Optimización SEO, animaciones fluidas y estructura responsive.",
     "descripcionDetallada": "Landing page moderna creada con React, para una empresa de marketing digital.\nOptimizada para SEO y diseñada con animaciones fluidas y carga rápida.\nPresenta los servicios y proyectos de la empresa de forma atractiva y con estructura responsive.\nDestaca por su rendimiento, accesibilidad y optimización de posicionamiento web.",
     "imagen": "/images/sinergia.png",
-    "urlDeploy": "https://www.sinergiastudiomkt.com/"
+    "urlDeploy": "https://www.sinergiastudiomkt.com/",
+    "urlGithub": "https://github.com/SergioEderCervantes/Sinergia-project"
   }
 ]
