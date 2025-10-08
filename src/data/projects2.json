@@ -13,7 +13,7 @@
     ],
     "destacado": "Integración completa entre frontend y backend, uso de almacenamiento en la nube y formularios dinámicos.",
     "descripcionDetallada": "Plataforma web desarrollada con Django, React y Next.js, contenedorizada con Docker y usando PostgreSQL y Cloudinary para el manejo de datos e imágenes.\nPermite visualizar perros disponibles para adopción y enviar solicitudes con datos completos del interesado.\nIncluye secciones informativas sobre el albergue y su misión.\nDestaca por su integración entre frontend y backend, el uso de formularios dinámicos y almacenamiento en la nube optimizado.",
-    "imagen": "images/patitas.png",
+    "imagen": "/Portfolio/images/patitas.png",
     "urlGithub": "https://github.com/SergioEderCervantes/Esperanza-Canina-Web-App"
   },
   {
@@ -23,7 +23,7 @@
     "tecnologias": ["Angular", "Node.js", "TailwindCSS", "Mercado Pago API"],
     "destacado": "Autogeneración de QRs de reserva y gestión completa de usuarios, reservas y objetos perdidos.",
     "descripcionDetallada": "Aplicación creada con Angular y Node.js, estilizada con TailwindCSS.\nOfrece la posibilidad de explorar hoteles, realizar reservaciones y pagar mediante Mercado Pago, generando de forma automática un QR único por reserva.\nCada usuario cuenta con un perfil donde puede gestionar sus reservaciones y acceder al sistema de objetos perdidos.\nSobresale el flujo completo de reservas, el uso de APIs de pago seguras y la autogeneración de QRs personalizados.",
-    "imagen": "images/fluky.png",
+    "imagen": "/Portfolio/images/fluky.png",
     "urlDeploy": "https://flukyresorts.netlify.app/",
     "urlGithub": "https://github.com/SergioEderCervantes/proyFlukyResorts"
   },
@@ -34,7 +34,7 @@
     "tecnologias": ["Angular", "Express", "Node.js"],
     "destacado": "Diseño limpio, enfoque en la comunicación directa y experiencia de usuario sencilla.",
     "descripcionDetallada": "Sitio web ligero y funcional para una repostería, que muestra todos los productos disponibles.\nPermite contactar directamente vía WhatsApp con la encargada para solicitar más información o hacer pedidos.\nSe centra en la usabilidad, la presentación visual y la redirección inmediata hacia canales de comunicación directa.",
-    "imagen": "images/Nicole.png",
+    "imagen": "/Portfolio/images/Nicole.png",
     "urlDeploy": "https://creacionesnicole.netlify.app/",
     "urlGithub": "https://github.com/SergioEderCervantes/Creaciones-Nicole"
   },
@@ -45,7 +45,7 @@
     "tecnologias": ["Django", "HTML", "CSS",  "JS", "mySQL"],
     "destacado": "Generación automática de brackets (directa, doble y round robin), panel admin completo, sistema de recompensas y control total de contenido.",
     "descripcionDetallada": "Aplicación web compleja para un bar temático de videojuegos, con un diseño proporcionado por los contratistas.\nIncluye información general del local, promociones, sistema de comentarios, y registro de usuarios con carga de imágenes.\nCuenta con un sistema de reservaciones con límite de fechas y selección de mesas, así como un robusto módulo de torneos con:\n\nRegistro de jugadores y generación automática de brackets (eliminación directa, doble y round robin).\n\nPanel administrativo con autenticación, control total de usuarios, torneos, promociones y menú.\n\nSistema de recompensas (inscripción gratis al 5° torneo).\nDestaca por su arquitectura modular, autogeneración de brackets, y panel de administración completo.",
-    "imagen": "images/lobby.png",
+    "imagen": "/Portfolio/images/lobby.png",
     "urlDeploy":"https://lobbybarags.com/"
   },
   {
@@ -55,7 +55,7 @@
     "tecnologias": ["React", "TailwindCSS", "GSAP"],
     "destacado": "Optimización SEO, animaciones fluidas y estructura responsive.",
     "descripcionDetallada": "Landing page moderna creada con React, para una empresa de marketing digital.\nOptimizada para SEO y diseñada con animaciones fluidas y carga rápida.\nPresenta los servicios y proyectos de la empresa de forma atractiva y con estructura responsive.\nDestaca por su rendimiento, accesibilidad y optimización de posicionamiento web.",
-    "imagen": "images/sinergia.png",
+    "imagen": "/Portfolio/images/sinergia.png",
     "urlDeploy": "https://www.sinergiastudiomkt.com/",
     "urlGithub": "https://github.com/SergioEderCervantes/Sinergia-project"
   }
