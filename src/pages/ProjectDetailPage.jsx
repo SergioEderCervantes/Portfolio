@@ -20,11 +20,13 @@ const ProjectDetailPage = () => {
   return (
     <div className="container mx-auto px-4 py-20 text-white">
       <div className="max-w-4xl mx-auto">
-        <Link to="/" className="text-strong-purple hover:underline mb-8 block">&larr; Volver a Proyectos</Link>
-        <h1 className="text-5xl font-bold mb-4">{project.nombre}</h1>
-        <img src={project.imagen} alt={project.nombre} className="w-full h-auto rounded-lg mb-8" />
+        <div data-aos="fade-right">
+          <Link to="/" className="text-strong-purple hover:underline mb-8 block">&larr; Volver a Proyectos</Link>
+          <h1 className="text-5xl font-bold mb-4">{project.nombre}</h1>
+        </div>
+        <img src={project.imagen} alt={project.nombre} className="w-full h-auto rounded-lg mb-8" data-aos="zoom-in" />
         
-        <div className="flex items-center gap-4 mb-8">
+        <div className="flex items-center gap-4 mb-8" data-aos="fade-up">
           {project.urlDeploy && (
             <a href={project.urlDeploy} target="_blank" rel="noopener noreferrer" className="bg-strong-purple text-white font-bold py-2 px-4 rounded-lg hover:bg-purple-700 transition-colors">
               Ver pagina
@@ -37,12 +39,12 @@ const ProjectDetailPage = () => {
           )}
         </div>
 
-        <div className="prose prose-invert max-w-none">
+        <div className="prose prose-invert max-w-none" data-aos="fade-up" data-aos-delay="200">
             <p className='text-2xl'>{project.destacado}</p>
             <br />
           <p>{project.descripcionDetallada}</p>
         </div>
-        <div className="mt-8">
+        <div className="mt-8" data-aos="fade-up" data-aos-delay="400">
           <div className="flex flex-wrap gap-3">
             {project.tecnologias.map((tech, index) => (
               <span key={index} className="bg-strong-purple/20 text-purple-300 text-sm font-medium px-3 py-1 rounded-full">

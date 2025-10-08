@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,23 +10,23 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo or Brand Name */}
           <div className="text-2xl font-bold text-white">
-            <a href="#">Logo</a>
+            <Link to="/">Logo</Link>
           </div>
 
           {/* Primary Nav (Desktop) */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#" className="relative group text-neutral-300 hover:text-strong-purple transition-colors">
+            <Link to="/" className="relative group text-neutral-300 hover:text-strong-purple transition-colors">
               <span>Home</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-strong-purple group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a href="#featured-projects" className="relative group text-neutral-300 hover:text-strong-purple transition-colors">
+            </Link>
+            <Link to="/#featured-projects" className="relative group text-neutral-300 hover:text-strong-purple transition-colors">
               <span>Proyectos</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-strong-purple group-hover:w-full transition-all duration-300"></span>
-            </a>
-            <a href="#abt-us" className="relative group text-neutral-300 hover:text-strong-purple transition-colors">
+            </Link>
+            <Link to="/#abt-us" className="relative group text-neutral-300 hover:text-strong-purple transition-colors">
               <span>Nosotros</span>
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-strong-purple group-hover:w-full transition-all duration-300"></span>
-            </a>
+            </Link>
           </div>
 
           {/* Social Links (Desktop) */}
@@ -52,9 +53,9 @@ const Navbar = () => {
       {/* Mobile Menu */}
       <div className={`absolute w-full left-0 top-16 bg-midnight/95 backdrop-blur-sm md:hidden transition-all duration-300 ease-in-out ${isOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-5'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <a href="#" className="text-neutral-300 hover:text-strong-purple block px-3 py-2 rounded-md text-base font-medium hover:underline underline-offset-4">Home</a>
-          <a href="#featured-projects" className="text-neutral-300 hover:text-strong-purple block px-3 py-2 rounded-md text-base font-medium hover:underline underline-offset-4">Proyectos</a>
-          <a href="#" className="text-neutral-300 hover:text-strong-purple block px-3 py-2 rounded-md text-base font-medium hover:underline underline-offset-4">Nosotros</a>
+          <Link to="/" className="text-neutral-300 hover:text-strong-purple block px-3 py-2 rounded-md text-base font-medium hover:underline underline-offset-4">Home</Link>
+          <Link to="/#featured-projects" className="text-neutral-300 hover:text-strong-purple block px-3 py-2 rounded-md text-base font-medium hover:underline underline-offset-4">Proyectos</Link>
+          <Link to="/#abt-us" className="text-neutral-300 hover:text-strong-purple block px-3 py-2 rounded-md text-base font-medium hover:underline underline-offset-4">Nosotros</Link>
         </div>
         {/* Social Links in Mobile Menu */}
         <div className="px-5 py-3 flex justify-start space-x-4">
