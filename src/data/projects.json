@@ -26,5 +26,12 @@
     "descripcionCorta": "This one should not be displayed.",
     "rolesDesempeñados": ["Testing"],
     "imagen": "https://placehold.co/1400x400"
+  },
+  {
+    "id": 5,
+    "nombre": "Project Five",
+    "descripcionCorta": "A brief description of the fifth featured project.",
+    "rolesDesempeñados": ["Backend", "Frontend"],
+    "imagen": "https://placehold.co/1400x400"
   }
 ]
