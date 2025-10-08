@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "John Doe",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "imagen": "https://placehold.co/400x400/1a1a2e/ffffff?text=JD"
+  },
+  {
+    "id": 2,
+    "nombre": "Jane Smith",
+    "descripcion": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "imagen": "https://placehold.co/400x400/1a1a2e/ffffff?text=JS"
+  },
+  {
+    "id": 3,
+    "nombre": "Peter Jones",
+    "descripcion": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "imagen": "https://placehold.co/400x400/1a1a2e/ffffff?text=PJ"
+  }
+]
