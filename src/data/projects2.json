@@ -58,5 +58,15 @@
     "imagen": "/Portfolio/images/sinergia.webp",
     "urlDeploy": "https://www.sinergiastudiomkt.com/",
     "urlGithub": "https://github.com/SergioEderCervantes/Sinergia-project"
+  },
+  {
+    "id": 6,
+    "nombre": "Conexion",
+    "descripcion": "Pagina web ilustrativa de comunidad universitaria,  enfocada en la UX, la optimizacion SEO y animaciones suaves.",
+    "tecnologias": ["Angular", "TailwindCSS", "AnimeJS"],
+    "destacado": "UX, Optimización SEO, animaciones fluidas y estructura responsive.",
+    "descripcionDetallada": "Página web ilustrativa para una comunidad universitaria, desarrollada con Angular, TailwindCSS y AnimeJS.\nEnfocada en proporcionar una experiencia de usuario óptima con navegación intuitiva y fluida.\nIncorpora optimización SEO para mejorar el posicionamiento en buscadores y animaciones suaves que enriquecen la interacción.\nDiseñada con estructura responsive que se adapta a cualquier dispositivo.\nDestaca por su compromiso con la UX, el rendimiento en SEO, las animaciones dinámicas y la compatibilidad multi-dispositivo.",
+    "imagen": "/Portfolio/images/conexion.png",
+    "urlDeploy": "https://conexionags.netlify.app"
   }
 ]
